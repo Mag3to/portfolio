@@ -4,6 +4,7 @@ import pro1 from "../Assets/Hotel-1.PNG"
 import pro2 from "../Assets/Hotel-3.PNG"
 import pro3 from "../Assets/SPot.PNG"
 import pro4 from "../Assets/keto.PNG"
+import pro5 from "../Assets/amarshop.PNG"
 import { NavLink } from 'react-router-dom'
 
 const WorkCard = () => {
@@ -73,6 +74,29 @@ const WorkCard = () => {
                         onClick={(e) => {
                             e.preventDefault();
                             window.open("https://www.swahilipothub.co.ke/", "_blank");
+                        }}
+                        >
+                        VIEW
+                    </NavLink>
+                    </div>
+                </div>
+            </div>
+
+            <div className="project-card">
+                <img src={pro5} alt="" />
+                <h2 className="project-title">AMARSHOP E-commerce </h2>
+                <div className="pro-details">
+                    <p>This platform helps young enterprenuers to set-up their businesses online and conduct their businesses effectively
+                        with clients from different geo-locations.
+                        The platform was developed using <span>React.js</span>, <span>Bootstrap</span>, and <span>Firebase</span>.
+                    </p>
+                    <div className="pro-btns">
+                    <NavLink
+                        to="https://amarshop-phi.vercel.app/"
+                        className="btn"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            window.open("https://amarshop-phi.vercel.app/", "_blank");
                         }}
                         >
                         VIEW

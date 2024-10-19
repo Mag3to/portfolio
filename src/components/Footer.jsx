@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import { Link } from "react-router-dom"
 import { FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
@@ -31,9 +32,10 @@ const Footer = () => {
                 that help make the client's life easier and better.
                 </p>
                 <div className="social">
-                <FaFacebook size={30} style={{color:"#fff", marginRight: "1rem"}}/>
-                <FaTwitter size={30} style={{color:"#fff", marginRight: "1rem"}}/>
-                <FaLinkedin size={30} style={{color:"#fff", marginRight: "1rem"}}/>
+                <Link to="https://wwww.facebook.com/martens.milik"><FaFacebook size={30} style={{color:"#fff", marginRight: "1rem"}}/></Link>
+                <Link to="https//x.com/BeatsLinskey?t=nCg1JnaAnv32DMiviBVzkA&s=09"><FaTwitter size={30} style={{color:"#fff", marginRight: "1rem"}}/></Link>
+                <Link to="https://www.linkedin.com/in/solomon-mageto-627333271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin size={30} style={{color:"#fff", marginRight: "1rem"}}/></Link>
+                
                 </div>
             </div>
         </div>
